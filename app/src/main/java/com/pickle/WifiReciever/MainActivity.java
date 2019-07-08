@@ -31,12 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onStop() {
-        super.onStop();
 
-        unregisterReceiver(reciever );
-    }
 
     public void sendBroadcast(View view) {
         Log.d("MAIN", "broadcast funtion");
